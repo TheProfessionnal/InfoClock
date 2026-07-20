@@ -1,0 +1,41 @@
+# v5.8
+# Bldg 864-R-C20
+# Configuration
+# InfoclockName
+
+essid=CERN
+wifiPassword=
+segments=8
+brightness=1
+timezone=CET-1CEST,M3.5.0/2,M10.5.0/3
+#https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
+
+# OWM SETTINGS (Open Weather)
+owmEnabled=1
+owmKey=a3aa34708bba3335de0ab8349dacab93
+#owmId=7286502 # Meyrin, CH
+owmId=3025274 # Chevry, FR
+owmPeriod=1800
+lang=fr
+
+# LED Blinker
+ledEnabled=1
+
+# Local Sensor Task
+lstEnabled=1
+tempOffset=0
+
+# LHC
+lhcEnabled=1
+
+messagesEnabled=1
+messages.bonjour=;Bienvenu;1
+messages.uptime=;Current uptime: $UPTIME$;1
+messages.hostname=;hostname: $hostname$;1
+
+#Disabled
+messages.endofyear=;Here we go to another year of collective experiences, lessons learned, and achievements made, Happy New Year to you and your family;1
+#messages.ip=;$IP$;1
+
+# Hostanme of the device
+hostname=pseudo
