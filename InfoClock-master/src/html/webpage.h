@@ -75,7 +75,7 @@ static const char mainPage[] PROGMEM = R"_(
    <a href="/log">Logs</a>
    $links$
    <br>
-   <a class="red" href="/reset">Reboot Device</a>
+   <a class="red" href="/reset">Reset device</a>
   </body>
 </html>
 )_";
